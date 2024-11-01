@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pickup_time_over_for_today{
+	background: #f00 !important;
+    color: #fff;
+	}
+	
+.pickup_time_over_for_today::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff !important;
+}
